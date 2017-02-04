@@ -176,7 +176,6 @@ client.focused          #e12977 #e12977    #333333 #e12977
 #client.focused_inactive #333333 #5f676a    #ffffff #484e50
 #client.unfocused        #333333 #424242    #888888 #292d2e
 #client.urgent           #ececec #900000    #ffffff #900000
-exec --no-startup-id feh --bg-scale /home/box/Picture/ob2GJUF.jpg
 
 # Sreen brightness controls
 bindsym XF86MonBrightnessUp exec xbacklight -inc 5 # increase screen brightness
