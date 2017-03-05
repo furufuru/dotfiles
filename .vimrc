@@ -21,7 +21,8 @@
  " Note: You don't set neobundle setting in .gvimrc!
 
  NeoBundle 'vim-airline/vim-airline'
-
+ NeoBundle 'elixir-lang/vim-elixir'
+ NeoBundle 'scrooloose/nerdtree'
  call neobundle#end()
 
  " Required:
