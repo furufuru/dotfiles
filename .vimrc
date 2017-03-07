@@ -39,7 +39,10 @@
  set laststatus=2
  set nu
 
-set tabstop=3
+set expandtab
+set tabstop=2
+autocmd BufNewFile,BufRead *.vue set filetype=html
 syntax enable
 "set background=dark
 colorscheme solarized
+set mouse=a
