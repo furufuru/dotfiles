@@ -23,6 +23,7 @@
  NeoBundle 'vim-airline/vim-airline'
  NeoBundle 'elixir-lang/vim-elixir'
  NeoBundle 'scrooloose/nerdtree'
+ NeoBundleLazy 'jelera/vim-javascript-syntax', {'autoload':{'filetypes':['javascript']}}
  call neobundle#end()
 
  " Required:
@@ -41,6 +42,7 @@
 
 set expandtab
 set tabstop=2
+set nosmartindent
 autocmd BufNewFile,BufRead *.vue set filetype=html
 syntax enable
 "set background=dark
